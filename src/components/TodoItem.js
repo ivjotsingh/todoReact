@@ -14,10 +14,13 @@ getItemStyle = () => {
 }
   
   render(){
-    console.log(this.props.todo.completed)
+    const {id, title} = this.props.todo
     return (
       <div style={this.getItemStyle()}>
-        <h3> {this.props.todo.title} </h3>
+        
+        <input type="checkbox" onChange={this.props.markComplete.bind(this, id)} /> {' '}
+        <h3> {title} </h3>
+        
       </div>
     );
   }
@@ -27,8 +30,5 @@ TodoItem.propTypes = {
     todo: PropTypes.object.isRequired
 }
 
-const itemStyle = {
-    
-}
 
 export default TodoItem;
