@@ -20,7 +20,7 @@ class App extends Component{
     {
       id: uuid(),
       title: "complete react todo project ",
-      completed: true
+      completed: false
     }],
     xyz: {}
   }
