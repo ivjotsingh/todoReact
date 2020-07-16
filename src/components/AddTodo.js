@@ -13,7 +13,7 @@ class AddTodo extends Component{
     
   }
 
-  onsSubmit = (e) => {
+  onSubmit = (e) => {
     e.preventDefault();
     this.props.addTodo(this.state.title)
     console.log(this.state)
@@ -22,23 +22,20 @@ class AddTodo extends Component{
 
   render(){
     return (
-        <form onsSubmit={this.onsSubmit} style={{display: 'flex' }}>
+        <form onSubmit={this.onSubmit} style={{display: 'flex' }}>
+          
           <input type='text'
           name='title'
           placeholder='Add Todo ...'
           style= {{flex: '10', padding: '5px'}}
           value= {this.state.title}
-          onChange= {this.onChange}
-          />
+          onChange= {this.onChange}/>
+
           <input 
           type='submit' 
           value='submit' 
           className='btn' 
-          style= {{flex: '1'}
-          
-        }
-
-          />
+          style= {{flex: '1'}}/>
           
         </form>
     );

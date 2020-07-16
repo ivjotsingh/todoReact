@@ -9,18 +9,18 @@ class App extends Component{
   state = {
     todos: [{
       id: uuid(),
-      title: "first",
+      title: "pick fruits on the way home",
       completed: false
     },
     {
       id: uuid(),
-      title: "second",
+      title: "pay electricty bill",
       completed: false
     },
     {
       id: uuid(),
-      title: "third",
-      completed: false
+      title: "complete react todo project ",
+      completed: true
     }],
     xyz: {}
   }
