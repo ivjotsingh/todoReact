@@ -15,3 +15,7 @@ a{
   color: #333;
   text-decoration: none;
 }
+
+.Container{
+  padding: 0 1rem;
+}
