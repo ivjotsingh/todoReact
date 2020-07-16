@@ -1,9 +1,9 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-<img src="https://ibb.co/pvVRzJV" />
+<img src="https://i.ibb.co/jz3Qdf5/Screenshot-2020-07-16-at-11-25-21-PM.png" />
 
 
-<img src="https://ibb.co/JRwVM2z" />
+<img src="https://i.ibb.co/vx6pKmJ/Screenshot-2020-07-16-at-11-19-06-PM.png" />
 
 
 ### `npm i`
